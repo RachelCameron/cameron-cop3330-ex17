@@ -9,13 +9,13 @@ public class exercise17 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double ratio;
-        System.out.println("Enter a 1 is you are male or a 2 if you are female:");
+        System.out.println("Enter a 1 is you are male or a 2 if you are female (numeric values only):");
         int sex = input.nextInt();
-        System.out.println("How many ounces of alcohol did you have?");
+        System.out.println("How many ounces of alcohol did you have (numeric values only)?");
         int ounces = input.nextInt();
-        System.out.println("What is your weight, in pounds?");
+        System.out.println("What is your weight, in pounds (numeric values only)?");
         int pounds = input.nextInt();
-        System.out.println("How many hours has it been since your last drink?");
+        System.out.println("How many hours has it been since your last drink? (numeric values only)");
         int hours = input.nextInt();
         if(sex == 1) {
             ratio = 0.73;
